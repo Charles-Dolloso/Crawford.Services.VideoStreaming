@@ -1,0 +1,56 @@
+/* General app container styling */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 15px 20px;
+  }
+  
+  .navbar-brand .navbar-logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links .nav-link:hover {
+    color: #17a2b8;
+    text-decoration: underline;
+  }
+  
+  /* Content area (pages like Home and Upload) */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }

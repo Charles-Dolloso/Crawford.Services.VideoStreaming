@@ -1,0 +1,8 @@
+<div class="video-gallery">
+  <div *ngFor="let video of videos" class="video-item" matTooltip="{{ video.title }}">
+    <img [src]="video.thumbnailPath" class="thumbnail" />
+    <p class="description">{{ video.description }}</p>
+    <p class="categories">Categories: {{ video.categories }}</p>
+    <a [routerLink]="['/video-stream', video.id]">Watch</a>
+  </div>
+</div>

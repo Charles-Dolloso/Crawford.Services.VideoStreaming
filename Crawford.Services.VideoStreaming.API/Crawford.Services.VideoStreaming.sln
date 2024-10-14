@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawford.Services.VideoStreaming.Application", "Crawford.Services.VideoStreaming.Application\Crawford.Services.VideoStreaming.Application.csproj", "{C34694C3-017F-409A-BF7C-B6D5530E0AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawford.Services.VideoStreaming.Domain", "Crawford.Services.VideoStreaming.Domain\Crawford.Services.VideoStreaming.Domain.csproj", "{41566555-5D11-41F8-9546-C851ECA40D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawford.Services.VideoStreaming.Infrastructure", "Crawford.Services.VideoStreaming.Infrastructure\Crawford.Services.VideoStreaming.Infrastructure.csproj", "{4804843F-F1F2-4DC2-8C38-CAC4BBDC9B34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C34694C3-017F-409A-BF7C-B6D5530E0AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34694C3-017F-409A-BF7C-B6D5530E0AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34694C3-017F-409A-BF7C-B6D5530E0AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34694C3-017F-409A-BF7C-B6D5530E0AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41566555-5D11-41F8-9546-C851ECA40D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41566555-5D11-41F8-9546-C851ECA40D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41566555-5D11-41F8-9546-C851ECA40D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41566555-5D11-41F8-9546-C851ECA40D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4804843F-F1F2-4DC2-8C38-CAC4BBDC9B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4804843F-F1F2-4DC2-8C38-CAC4BBDC9B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4804843F-F1F2-4DC2-8C38-CAC4BBDC9B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4804843F-F1F2-4DC2-8C38-CAC4BBDC9B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {034341B2-E7E8-481E-880F-74507BC5F73E}
+	EndGlobalSection
+EndGlobal

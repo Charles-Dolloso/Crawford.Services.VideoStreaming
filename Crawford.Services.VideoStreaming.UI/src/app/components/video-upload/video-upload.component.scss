@@ -1,0 +1,33 @@
+.upload-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.file-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-input input {
+  display: none;
+}
+
+.file-input button {
+  flex-shrink: 0;
+}
+
+.file-input span {
+  color: #555;
+  font-size: 14px;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

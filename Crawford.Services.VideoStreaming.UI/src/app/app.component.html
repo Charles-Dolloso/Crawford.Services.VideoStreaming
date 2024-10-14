@@ -1,0 +1,22 @@
+<div class="app-container">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a routerLink="/" class="navbar-logo">MyVideoApp</a>
+    </div>
+    <ul class="navbar-links">
+      <li><a routerLink="/" class="nav-link">Home</a></li>
+      <li><a routerLink="/video-upload" class="nav-link">Upload Video</a></li>
+    </ul>
+  </nav>
+
+  <!-- Router outlet to display current page content -->
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 MyVideoApp. All Rights Reserved.</p>
+  </footer>
+</div>
